@@ -28,7 +28,7 @@
 - [x] src/content/skills.ts: stack agrupado (Backend, Frontend, IA y datos, Infraestructura y herramientas)
 - [x] src/content/site.ts: textos globales, nombre, links
 - [x] Listar TODO(lalo) en README/PHASES.md (capturas, URLs demo/repo, métricas, diagramas, nivel detalle SolucionSpamWhatsApp)
-- [ ] Verificación: pnpm lint, pnpm tsc --noEmit, pnpm build OK
+- [x] Verificación: pnpm lint, pnpm tsc --noEmit, pnpm build OK
 - Commit: por fase
 
 ## Fase 3 – Home (Pendiente)
