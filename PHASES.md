@@ -60,7 +60,13 @@
 - [ ] Variables de entorno
 - [ ] Verificar URL producción + links + previews
 
-## Fase 7 – Opcional (Pendiente)
+## Fase 7 – Internacionalización e inglés (NO opcional)
+- [ ] Versión en inglés en `/en` con i18n sencillo basado en archivos (estructura lista para inglés desde línea base). Añadir rutas/archivos de traducciones (ES base). 
+- [ ] Mantener diseño y estructura; separar contenido por idioma.
+- [ ] Formulario de contacto con Resend (implementación base según plan)
+- [ ] Página de blog o notas técnicas (estructura mínima según alcance)
+- [ ] Descarga del CV con tracking básico
+- Nota: según plan, el sitio debe dejar estructura lista para inglés en Fase 7 (y se implementa completo en Fase 7).
 
 ## Pendientes de Lalo (sección 11 del plan)
 - [ ] Email de contacto y URL sitio en .env
