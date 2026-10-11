@@ -31,14 +31,14 @@
 - [x] Verificación: pnpm lint, pnpm tsc --noEmit, pnpm build OK
 - Commit: por fase
 
-## Fase 3 – Home (Pendiente)
-- [ ] Hero con propuesta de valor + botones (Ver proyectos, CV, GitHub, LinkedIn) + "La Plata, Argentina" + disponibilidad
-- [ ] Diagrama SVG del flujo voz→STT→búsqueda→LLM→TTS (única animación, respeta reduced-motion)
-- [ ] Listado editorial de proyectos (3 featured grandes + 3 compactos). Sin grilla idéntica
-- [ ] Sección Stack agrupada
-- [ ] Sección Sobre mí (máx 3 párrafos, UNLP, freelance)
-- [ ] Sección Contacto (mailto, LinkedIn, GitHub, CV)
-- [ ] Placeholder neutro para media si falta
+## Fase 3 – Home (Completada)
+- [x]] Hero con propuesta de valor + botones (Ver proyectos, CV, GitHub, LinkedIn) + "La Plata, Argentina" + disponibilidad
+- [x]] Diagrama SVG del flujo voz→STT→búsqueda→LLM→TTS (única animación, respeta reduced-motion)
+- [x]] Listado editorial de proyectos (3 featured grandes + 3 compactos). Sin grilla idéntica
+- [x]] Sección Stack agrupada
+- [x]] Sección Sobre mí (máx 3 párrafos, UNLP, freelance)
+- [x]] Sección Contacto (mailto, LinkedIn, GitHub, CV)
+- [x]] Placeholder neutro para media si falta
 
 ## Fase 4 – Detalle proyectos (Pendiente)
 - [ ] app/proyectos/[slug]/page.tsx con generateStaticParams, not-found para slug inválido
