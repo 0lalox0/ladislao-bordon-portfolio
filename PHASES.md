@@ -78,3 +78,12 @@
 - [ ] Lenguaje/framework SolucionSpamWhatsApp
 - [ ] Diagramas arquitectura (asistente emergencias + ProjectPlanning)
 - [ ] Dominio propio (opcional)
+
+## Fase 5 – SEO y calidad (Pendiente)
+- [ ] Instalar @vercel/analytics
+- [ ] Agregar Analytics en layout.tsx
+- [ ] Metadata por página (ya parcial), opengraph-image.tsx
+- [ ] sitemap.ts y robots.ts
+- [ ] JSON-LD Person en home
+- [ ] Revisar accesibilidad (h1 único, foco, contraste AA, skip link)
+- [ ] Verificar Lighthouse objetivos

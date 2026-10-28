@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Bricolage_Grotesque, IBM_Plex_Sans } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 const titleFont = Bricolage_Grotesque({
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
   },
   description:
     'Portfolio de Ladislao "Lalo" Bordon, desarrollador full-stack freelance en La Plata, Argentina.',
-  metadataBase: new URL('https://tusitio.com.ar'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tusitio.com.ar'),
   alternates: {
     canonical: '/',
   },
@@ -57,6 +58,7 @@ export default function RootLayout({
           Saltar al contenido
         </a>
         {children}
+        <Analytics />
       </body>
     </html>
   )
