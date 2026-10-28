@@ -20,12 +20,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!project) {
     return {
       title: 'Proyecto no encontrado',
+      robots: { index: false, follow: false },
     }
   }
+
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tusitio.com.ar'
 
   return {
     title: project.title,
     description: project.tagline,
+    alternates: {
+      canonical: `${baseUrl}/proyectos/${project.slug}`,
+    },
+    openGraph: {
+      title: `${project.title} | Ladislao Bordon`,
+      description: project.tagline,
+      url: `${baseUrl}/proyectos/${project.slug}`,
+      type: 'article',
+      siteName: 'Ladislao Bordon',
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
   }
 }
 
@@ -40,6 +57,32 @@ export default async function ProjectPage({ params }: PageProps) {
   const currentIndex = projects.findIndex((p) => p.slug === slug)
   const prevProject = currentIndex > 0 ? projects[currentIndex - 1] : null
   const nextProject = currentIndex < projects.length - 1 ? projects[currentIndex + 1] : null
+
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tusitio.com.ar'
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Inicio',
+        item: baseUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Proyectos',
+        item: `${baseUrl}/#proyectos`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: project.title,
+        item: `${baseUrl}/proyectos/${project.slug}`,
+      },
+    ],
+  }
 
   return (
     <>
@@ -203,6 +246,10 @@ export default async function ProjectPage({ params }: PageProps) {
         </nav>
       </main>
       <Footer />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
     </>
   )
 }
