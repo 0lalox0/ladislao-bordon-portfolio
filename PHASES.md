@@ -54,8 +54,8 @@
 - [ ] Revisión accesibilidad (h1 único, foco, contraste AA)
 - [ ] Lighthouse ≥95 (Performance, A11y, Best Practices, SEO) móvil
 
-## Fase 6 – Deploy (Pendiente)
-- [ ] Subir repo a GitHub (portfolio)
+## Fase 6 – Deploy (En progreso)
+- [x] Subir repo a GitHub (portfolio)
 - [ ] Importar en Vercel (Next.js, rama main)
 - [ ] Variables de entorno
 - [ ] Verificar URL producción + links + previews
@@ -87,3 +87,10 @@
 - [ ] JSON-LD Person en home
 - [x]] Revisar accesibilidad (h1 único, foco, contraste AA, skip link)
 - [x]] Verificar Lighthouse objetivos
+
+## Fase 6 – Deploy (En progreso)
+- [x] Subir repo a GitHub (portfolio)
+- [ ] Importar en Vercel (Next.js, rama main)
+- [ ] Cargar variables de entorno (NEXT_PUBLIC_CONTACT_EMAIL, NEXT_PUBLIC_SITE_URL)
+- [ ] Verificar URL producción + links + previews
+- [ ] Conectar dominio propio cuando corresponda
