@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export function Header() {
   const navLinks = [
-    { href: '#proyectos', label: 'Proyectos' },
-    { href: '#stack', label: 'Stack' },
-    { href: '#sobre-mi', label: 'Sobre mí' },
-    { href: '#contacto', label: 'Contacto' },
+    { href: '/#proyectos', label: 'Proyectos' },
+    { href: '/#stack', label: 'Stack' },
+    { href: '/#sobre-mi', label: 'Sobre mí' },
+    { href: '/#contacto', label: 'Contacto' },
   ]
 
   return (
