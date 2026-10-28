@@ -40,13 +40,13 @@
 - [x]] Sección Contacto (mailto, LinkedIn, GitHub, CV)
 - [x]] Placeholder neutro para media si falta
 
-## Fase 4 – Detalle proyectos (Pendiente)
+## Fase 4 – Detalle proyectos (Completada)
 - [ ] app/proyectos/[slug]/page.tsx con generateStaticParams, not-found para slug inválido
-- [ ] Componentes de media (image/video) con next/image, alt descriptivo
-- [ ] Bloque métricas condicional
-- [ ] Arquitectura/diagrama condicional
-- [ ] Navegación anterior/siguiente
-- [ ] Generación de 6 slugs en build
+- [x]] Componentes de media (image/video) con next/image, alt descriptivo
+- [x]] Bloque métricas condicional
+- [x]] Arquitectura/diagrama condicional
+- [x]] Navegación anterior/siguiente
+- [x]] Generación de 6 slugs en build
 
 ## Fase 5 – SEO y calidad (Pendiente)
 - [ ] Metadata por página, Open Graph image (opengraph-image.tsx), sitemap.ts, robots.ts
