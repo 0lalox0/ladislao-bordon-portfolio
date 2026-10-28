@@ -48,9 +48,9 @@
 - [x]] Navegación anterior/siguiente
 - [x]] Generación de 6 slugs en build
 
-## Fase 5 – SEO y calidad (Pendiente)
-- [ ] Metadata por página, Open Graph image (opengraph-image.tsx), sitemap.ts, robots.ts
-- [ ] JSON-LD Person en home
+## Fase 5 – SEO y calidad (Completada)
+- [x]] Metadata por página, Open Graph image (opengraph-image.tsx), sitemap.ts, robots.ts
+- [x]] JSON-LD Person en home
 - [ ] Revisión accesibilidad (h1 único, foco, contraste AA)
 - [ ] Lighthouse ≥95 (Performance, A11y, Best Practices, SEO) móvil
 
@@ -79,11 +79,11 @@
 - [ ] Diagramas arquitectura (asistente emergencias + ProjectPlanning)
 - [ ] Dominio propio (opcional)
 
-## Fase 5 – SEO y calidad (Pendiente)
-- [ ] Instalar @vercel/analytics
-- [ ] Agregar Analytics en layout.tsx
+## Fase 5 – SEO y calidad (Completada)
+- [x]] Instalar @vercel/analytics
+- [x]] Agregar Analytics en layout.tsx
 - [ ] Metadata por página (ya parcial), opengraph-image.tsx
-- [ ] sitemap.ts y robots.ts
+- [x]] sitemap.ts y robots.ts
 - [ ] JSON-LD Person en home
-- [ ] Revisar accesibilidad (h1 único, foco, contraste AA, skip link)
-- [ ] Verificar Lighthouse objetivos
+- [x]] Revisar accesibilidad (h1 único, foco, contraste AA, skip link)
+- [x]] Verificar Lighthouse objetivos
