@@ -17,6 +17,8 @@ const bodyFont = IBM_Plex_Sans({
   display: 'swap',
 })
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tusitio.com.ar'
+
 export const metadata: Metadata = {
   title: {
     default: 'Ladislao Bordon – Desarrollador full-stack',
@@ -24,7 +26,7 @@ export const metadata: Metadata = {
   },
   description:
     'Portfolio de Ladislao "Lalo" Bordon, desarrollador full-stack freelance en La Plata, Argentina.',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tusitio.com.ar'),
+  metadataBase: new URL(siteUrl),
   alternates: {
     canonical: '/',
   },
@@ -36,6 +38,21 @@ export const metadata: Metadata = {
     title: 'Ladislao Bordon – Desarrollador full-stack',
     description:
       'Desarrollador full-stack freelance. Productos web completos, de la base de datos al deploy, y sistemas con IA aplicada.',
+    images: [
+      {
+        url: '/og.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Ladislao Bordon – Desarrollador full-stack',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ladislao Bordon – Desarrollador full-stack',
+    description:
+      'Desarrollador full-stack freelance. Productos web completos, de la base de datos al deploy, y sistemas con IA aplicada.',
+    images: ['/og.svg'],
   },
   robots: {
     index: true,
